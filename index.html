@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/flexproperties.css">
+    <link rel="stylesheet" href="./assets/css/margins.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/types.css">
+
+
+</head>
+<body>
+    
+    <section class="content">
+        <h1 class="main-title">Pokedex</h1>
+        <ul class="pokemons" id="pokemons">
+        </ul>
+
+        <div class="mt-3 d-flex flex-row justify-content-around">
+            <button onclick="putPokemons(event)" id="previous">Previous Page</button>
+            <button onclick="putPokemons(event)" id="next">Next Page</button>
+        </div>
+        
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
+
+</body>
+</html>

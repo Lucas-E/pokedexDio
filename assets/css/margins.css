@@ -1,0 +1,24 @@
+.ms-auto{
+    margin-right: auto;
+}
+.me-auto{
+    margin-left: auto;
+}
+.mt-1{
+    margin-top: 20px;
+}
+.mt-2{
+    margin-top: 40px;
+}
+.mt-3{
+    margin-top: 60px;
+}
+.mt-4{
+    margin-top: 80px;
+}
+.mt-5{
+    margin-top: 100px;
+}
+.m-3{
+    margin:60px;
+}
